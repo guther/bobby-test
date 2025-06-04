@@ -78,7 +78,6 @@ app.get("/user/:userId", (req, res) => {
           res.json(responseObject);
         }
       );
-      const abc = 0;
       res.json({});
     }
   } else {
